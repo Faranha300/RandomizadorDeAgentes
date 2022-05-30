@@ -1,0 +1,25 @@
+# ninja log v5
+3	349	6754289880049712	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+350	934	6754289885860076	EscolherBoneco.exe	889cba060d00f610
+4	471	6754297321098784	CMakeFiles/EscolherBoneco.dir/resources.rc.obj	b4cf2c58c2b45ba0
+472	1069	6754297326918766	EscolherBoneco.exe	dd926c9fd1bb4780
+5	977	6755843116704975	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+979	2181	6755843128685210	EscolherBoneco.exe	dd926c9fd1bb4780
+4	588	6755843520753857	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+589	1181	6755843526680920	EscolherBoneco.exe	dd926c9fd1bb4780
+4	476	6755843752452785	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+478	1085	6755843758451122	EscolherBoneco.exe	dd926c9fd1bb4780
+16	338	6755844844546596	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+339	965	6755844850696716	EscolherBoneco.exe	dd926c9fd1bb4780
+4	477	6755845935219720	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+479	1064	6755845941058093	EscolherBoneco.exe	dd926c9fd1bb4780
+4	475	6756546806145159	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+476	1615	6756546817430154	EscolherBoneco.exe	dd926c9fd1bb4780
+3	467	6756549892336900	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+468	1056	6756549898166464	EscolherBoneco.exe	dd926c9fd1bb4780
+3	359	6756550427798014	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+360	948	6756550433636404	EscolherBoneco.exe	dd926c9fd1bb4780
+3	359	6756552896112332	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+361	952	6756552901987254	EscolherBoneco.exe	dd926c9fd1bb4780
+3	354	6756553093558064	CMakeFiles/EscolherBoneco.dir/main.c.obj	1bec5b1213065b57
+355	963	6756553099561907	EscolherBoneco.exe	dd926c9fd1bb4780

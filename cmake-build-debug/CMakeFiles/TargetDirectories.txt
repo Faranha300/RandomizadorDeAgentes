@@ -1,0 +1,3 @@
+C:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug/CMakeFiles/EscolherBoneco.dir
+C:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug/CMakeFiles/rebuild_cache.dir
