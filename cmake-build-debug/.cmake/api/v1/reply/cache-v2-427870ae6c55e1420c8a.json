@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug"
+			"value" : "c:/Users/fabri/CLionProjects/RandomizadorDeAgentes/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/fabri/CLionProjects/EscolherBoneco"
+			"value" : "C:/Users/fabri/CLionProjects/RandomizadorDeAgentes"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "EscolherBoneco"
+			"value" : "RandomizadorDeAgentes"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1095,7 +1095,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug"
+			"value" : "C:/Users/fabri/CLionProjects/RandomizadorDeAgentes/cmake-build-debug"
 		},
 		{
 			"name" : "EscolherBoneco_IS_TOP_LEVEL",
@@ -1119,7 +1119,43 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/fabri/CLionProjects/EscolherBoneco"
+			"value" : "C:/Users/fabri/CLionProjects/RandomizadorDeAgentes"
+		},
+		{
+			"name" : "RandomizadorDeAgentes_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/fabri/CLionProjects/RandomizadorDeAgentes/cmake-build-debug"
+		},
+		{
+			"name" : "RandomizadorDeAgentes_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "RandomizadorDeAgentes_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/fabri/CLionProjects/RandomizadorDeAgentes"
 		}
 	],
 	"kind" : "cache",

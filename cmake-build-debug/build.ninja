@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: EscolherBoneco
+# Project: RandomizadorDeAgentes
 # Configurations: Debug
 # =============================================================================
 
@@ -39,51 +39,51 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/fabri/CLionProjects/RandomizadorDeAgentes/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target EscolherBoneco
+# Object build statements for EXECUTABLE target RandomizadorDeAgentes
 
 
 #############################################
-# Order-only phony target for EscolherBoneco
+# Order-only phony target for RandomizadorDeAgentes
 
-build cmake_object_order_depends_target_EscolherBoneco: phony || CMakeFiles/EscolherBoneco.dir
+build cmake_object_order_depends_target_RandomizadorDeAgentes: phony || CMakeFiles/RandomizadorDeAgentes.dir
 
-build CMakeFiles/EscolherBoneco.dir/main.c.obj: C_COMPILER__EscolherBoneco_Debug C$:/Users/fabri/CLionProjects/EscolherBoneco/main.c || cmake_object_order_depends_target_EscolherBoneco
-  DEP_FILE = CMakeFiles\EscolherBoneco.dir\main.c.obj.d
+build CMakeFiles/RandomizadorDeAgentes.dir/main.c.obj: C_COMPILER__RandomizadorDeAgentes_Debug C$:/Users/fabri/CLionProjects/RandomizadorDeAgentes/main.c || cmake_object_order_depends_target_RandomizadorDeAgentes
+  DEP_FILE = CMakeFiles\RandomizadorDeAgentes.dir\main.c.obj.d
   FLAGS = -g -std=gnu99
-  OBJECT_DIR = CMakeFiles\EscolherBoneco.dir
-  OBJECT_FILE_DIR = CMakeFiles\EscolherBoneco.dir
+  OBJECT_DIR = CMakeFiles\RandomizadorDeAgentes.dir
+  OBJECT_FILE_DIR = CMakeFiles\RandomizadorDeAgentes.dir
 
-build CMakeFiles/EscolherBoneco.dir/resources.rc.obj: RC_COMPILER__EscolherBoneco_Debug C$:/Users/fabri/CLionProjects/EscolherBoneco/resources.rc || cmake_object_order_depends_target_EscolherBoneco
-  DEP_FILE = CMakeFiles\EscolherBoneco.dir\resources.rc.obj.d
-  OBJECT_DIR = CMakeFiles\EscolherBoneco.dir
-  OBJECT_FILE_DIR = CMakeFiles\EscolherBoneco.dir
+build CMakeFiles/RandomizadorDeAgentes.dir/resources.rc.obj: RC_COMPILER__RandomizadorDeAgentes_Debug C$:/Users/fabri/CLionProjects/RandomizadorDeAgentes/resources.rc || cmake_object_order_depends_target_RandomizadorDeAgentes
+  DEP_FILE = CMakeFiles\RandomizadorDeAgentes.dir\resources.rc.obj.d
+  OBJECT_DIR = CMakeFiles\RandomizadorDeAgentes.dir
+  OBJECT_FILE_DIR = CMakeFiles\RandomizadorDeAgentes.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target EscolherBoneco
+# Link build statements for EXECUTABLE target RandomizadorDeAgentes
 
 
 #############################################
-# Link the executable EscolherBoneco.exe
+# Link the executable RandomizadorDeAgentes.exe
 
-build EscolherBoneco.exe: C_EXECUTABLE_LINKER__EscolherBoneco_Debug CMakeFiles/EscolherBoneco.dir/main.c.obj CMakeFiles/EscolherBoneco.dir/resources.rc.obj
+build RandomizadorDeAgentes.exe: C_EXECUTABLE_LINKER__RandomizadorDeAgentes_Debug CMakeFiles/RandomizadorDeAgentes.dir/main.c.obj CMakeFiles/RandomizadorDeAgentes.dir/resources.rc.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\EscolherBoneco.dir
+  OBJECT_DIR = CMakeFiles\RandomizadorDeAgentes.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = EscolherBoneco.exe
-  TARGET_IMPLIB = libEscolherBoneco.dll.a
-  TARGET_PDB = EscolherBoneco.exe.dbg
+  TARGET_FILE = RandomizadorDeAgentes.exe
+  TARGET_IMPLIB = libRandomizadorDeAgentes.dll.a
+  TARGET_PDB = RandomizadorDeAgentes.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\fabri\CLionProjects\EscolherBoneco\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\fabri\CLionProjects\RandomizadorDeAgentes\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -94,7 +94,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\fabri\CLionProjects\EscolherBoneco\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\fabri\CLionProjects\EscolherBoneco -BC:\Users\fabri\CLionProjects\EscolherBoneco\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\fabri\CLionProjects\RandomizadorDeAgentes\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\fabri\CLionProjects\RandomizadorDeAgentes -BC:\Users\fabri\CLionProjects\RandomizadorDeAgentes\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -104,7 +104,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build EscolherBoneco: phony EscolherBoneco.exe
+build RandomizadorDeAgentes: phony RandomizadorDeAgentes.exe
 
 # =============================================================================
 # Folder targets.
@@ -112,9 +112,9 @@ build EscolherBoneco: phony EscolherBoneco.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/fabri/CLionProjects/EscolherBoneco/cmake-build-debug
+# Folder: C:/Users/fabri/CLionProjects/RandomizadorDeAgentes/cmake-build-debug
 
-build all: phony EscolherBoneco.exe
+build all: phony RandomizadorDeAgentes.exe
 
 # =============================================================================
 # Built-in targets

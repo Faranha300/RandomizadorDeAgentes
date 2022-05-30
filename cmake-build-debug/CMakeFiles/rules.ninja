@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: EscolherBoneco
+# Project: RandomizadorDeAgentes
 # Configurations: Debug
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__EscolherBoneco_Debug
+rule C_COMPILER__RandomizadorDeAgentes_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule C_COMPILER__EscolherBoneco_Debug
 #############################################
 # Rule for compiling RC files.
 
-rule RC_COMPILER__EscolherBoneco_Debug
+rule RC_COMPILER__RandomizadorDeAgentes_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\windres.exe -O coff $DEFINES $INCLUDES $FLAGS $in $out
@@ -34,7 +34,7 @@ rule RC_COMPILER__EscolherBoneco_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__EscolherBoneco_Debug
+rule C_EXECUTABLE_LINKER__RandomizadorDeAgentes_Debug
   command = cmd.exe /C "$PRE_LINK && C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\fabri\CLionProjects\EscolherBoneco -BC:\Users\fabri\CLionProjects\EscolherBoneco\cmake-build-debug
+  command = "C:\Program Files\JetBrains\CLion 2022.1.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\fabri\CLionProjects\RandomizadorDeAgentes -BC:\Users\fabri\CLionProjects\RandomizadorDeAgentes\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
