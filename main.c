@@ -19,7 +19,7 @@ int main() {
             };
         };
 
-        if (numeroNaLista == 'N'){ // Se o numero for igual a um dos numeros já sorteados (Reformular)
+        if (numeroNaLista == 'N'){
             switch (numero) {
                 case 1:
                     printf("Astra");
