@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main() {
     srand(time(0));
@@ -11,15 +12,15 @@ int main() {
 
     while (quantidade > 0){
         numero = (rand() % 19) + 1;
-        char numeroNaLista = 'N';
+        char numeroNaLista = false;
 
-        for (int i = 0; i <= indexLista; i++){
+        for (int i = 0; i <= indexLista; i++){ // Descobrindo se o número sorteado já está na lista
             if (numero == numerosSorteados[i]){
-                numeroNaLista = 'S';
+                numeroNaLista = true; // Se o número já está na lista, o programa irá sortear outro número, até chegar na quantidade desejada
             };
         };
 
-        if (numeroNaLista == 'N'){
+        if (numeroNaLista == false){ // Se o número sorteado não está na lista:
             switch (numero) {
                 case 1:
                     printf("Astra");
